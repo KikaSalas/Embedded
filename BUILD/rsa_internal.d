@@ -1,0 +1,9 @@
+.\build\rsa_internal.o: mbed-os\features\mbedtls\src\rsa_internal.c
+.\build\rsa_internal.o: mbed_config.h
+.\build\rsa_internal.o: mbed-os\features\mbedtls\inc\mbedtls/config.h
+.\build\rsa_internal.o: mbed-os\features\mbedtls\platform/inc/platform_mbed.h
+.\build\rsa_internal.o: mbed-os\features\mbedtls\inc\mbedtls/check_config.h
+.\build\rsa_internal.o: mbed-os\features\mbedtls\inc\mbedtls/rsa.h
+.\build\rsa_internal.o: mbed-os\features\mbedtls\inc\mbedtls/bignum.h
+.\build\rsa_internal.o: mbed-os\features\mbedtls\inc\mbedtls/md.h
+.\build\rsa_internal.o: mbed-os\features\mbedtls\inc\mbedtls/rsa_internal.h

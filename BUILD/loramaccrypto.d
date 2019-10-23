@@ -1,0 +1,15 @@
+.\build\loramaccrypto.o: mbed-os\features\lorawan\lorastack\mac\LoRaMacCrypto.cpp
+.\build\loramaccrypto.o: mbed_config.h
+.\build\loramaccrypto.o: mbed-os\features\lorawan\lorastack\mac\LoRaMacCrypto.h
+.\build\loramaccrypto.o: mbed-os\features\mbedtls\inc\mbedtls/aes.h
+.\build\loramaccrypto.o: mbed-os\features\mbedtls\inc\mbedtls/config.h
+.\build\loramaccrypto.o: mbed-os\features\mbedtls\platform/inc/platform_mbed.h
+.\build\loramaccrypto.o: mbed-os\features\mbedtls\inc\mbedtls/check_config.h
+.\build\loramaccrypto.o: mbed-os\features\mbedtls\inc\mbedtls/cmac.h
+.\build\loramaccrypto.o: mbed-os\features\mbedtls\inc\mbedtls/cipher.h
+.\build\loramaccrypto.o: mbed-os\features\lorawan\system/lorawan_data_structures.h
+.\build\loramaccrypto.o: mbed-os\features\lorawan\lorawan_types.h
+.\build\loramaccrypto.o: mbed-os\platform/Callback.h
+.\build\loramaccrypto.o: mbed-os\platform/mbed_assert.h
+.\build\loramaccrypto.o: mbed-os\platform/mbed_preprocessor.h
+.\build\loramaccrypto.o: mbed-os\platform/mbed_toolchain.h

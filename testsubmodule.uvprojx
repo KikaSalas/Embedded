@@ -7098,16 +7098,6 @@
               <FilePath>.\threadANALOG.cpp</FilePath>
             </File>
             <File>
-              <FileName>MBed_Adafruit_GPS.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>.\MBed_Adafruit_GPS.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>MBed_Adafruit_GPS.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\MBed_Adafruit_GPS.h</FilePath>
-            </File>
-            <File>
               <FileName>MMA8451Q.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>.\MMA8451Q.cpp</FilePath>
@@ -7126,6 +7116,16 @@
               <FileName>threadI2C.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>.\threadI2C.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>MBed_Adafruit_GPS.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\Students Presentation 19-20\GPS-FGPMMOPA6C\MBed_Adafruit_GPS.h</FilePath>
+            </File>
+            <File>
+              <FileName>MBed_Adafruit_GPS.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\..\Students Presentation 19-20\GPS-FGPMMOPA6C\MBed_Adafruit_GPS.cpp</FilePath>
             </File>
           </Files>
         </Group>

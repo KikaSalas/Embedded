@@ -570,10 +570,10 @@
 ".\build\xtea.o"
 ".\build\main.o"
 ".\build\threadanalog.o"
-".\build\mbed_adafruit_gps.o"
 ".\build\mma8451q.o"
 ".\build\threadgps.o"
 ".\build\threadi2c.o"
+".\build\mbed_adafruit_gps.o"
 --scatter ".\mbed-os\targets\TARGET_STM\TARGET_STM32L0\TARGET_STM32L072xZ\device\TOOLCHAIN_ARM_STD\stm32l072xz.sct"
 --show_full_path --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

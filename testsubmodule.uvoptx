@@ -16385,30 +16385,6 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\MBed_Adafruit_GPS.cpp</PathWithFileName>
-      <FilenameWithoutPath>MBed_Adafruit_GPS.cpp</FilenameWithoutPath>
-      <RteFlg>0</RteFlg>
-      <bShared>0</bShared>
-    </File>
-    <File>
-      <GroupNumber>2</GroupNumber>
-      <FileNumber>1344</FileNumber>
-      <FileType>5</FileType>
-      <tvExp>0</tvExp>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <bDave2>0</bDave2>
-      <PathWithFileName>.\MBed_Adafruit_GPS.h</PathWithFileName>
-      <FilenameWithoutPath>MBed_Adafruit_GPS.h</FilenameWithoutPath>
-      <RteFlg>0</RteFlg>
-      <bShared>0</bShared>
-    </File>
-    <File>
-      <GroupNumber>2</GroupNumber>
-      <FileNumber>1345</FileNumber>
-      <FileType>8</FileType>
-      <tvExp>0</tvExp>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <bDave2>0</bDave2>
       <PathWithFileName>.\MMA8451Q.cpp</PathWithFileName>
       <FilenameWithoutPath>MMA8451Q.cpp</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
@@ -16416,7 +16392,7 @@
     </File>
     <File>
       <GroupNumber>2</GroupNumber>
-      <FileNumber>1346</FileNumber>
+      <FileNumber>1344</FileNumber>
       <FileType>5</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -16428,7 +16404,7 @@
     </File>
     <File>
       <GroupNumber>2</GroupNumber>
-      <FileNumber>1347</FileNumber>
+      <FileNumber>1345</FileNumber>
       <FileType>8</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -16440,13 +16416,37 @@
     </File>
     <File>
       <GroupNumber>2</GroupNumber>
-      <FileNumber>1348</FileNumber>
+      <FileNumber>1346</FileNumber>
       <FileType>8</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>.\threadI2C.cpp</PathWithFileName>
       <FilenameWithoutPath>threadI2C.cpp</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>2</GroupNumber>
+      <FileNumber>1347</FileNumber>
+      <FileType>5</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\..\Students Presentation 19-20\GPS-FGPMMOPA6C\MBed_Adafruit_GPS.h</PathWithFileName>
+      <FilenameWithoutPath>MBed_Adafruit_GPS.h</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>2</GroupNumber>
+      <FileNumber>1348</FileNumber>
+      <FileType>8</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\..\Students Presentation 19-20\GPS-FGPMMOPA6C\MBed_Adafruit_GPS.cpp</PathWithFileName>
+      <FilenameWithoutPath>MBed_Adafruit_GPS.cpp</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>

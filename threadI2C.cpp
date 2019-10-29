@@ -14,18 +14,17 @@ float hum, temp;
 
 //RGB LED AND COLOUR SENSOR
 I2C colour_sensor(PB_9, PB_8);
-DigitalOut ledColour(PA_10); // TCS34725 led
-DigitalOut ledR(PA_14); //RGB led - red light
+DigitalOut ledColour(PB_7); // TCS34725 led
+DigitalOut ledR(PH_0); //RGB led - red light
 DigitalOut ledG(PH_1);  //RGB led - green light 
-DigitalOut ledB(PA_4);  //RGB led - blue light
+DigitalOut ledB(PB_13);  //RGB led - blue light
 int sensor_addr = 0x29 << 1; 
 //Variable for ISR
 bool readColour =  false;
-DigitalOut green(LED1); //LED of B-L072Z-LRWAN1 board
 Ticker t;
 
 int clear_value, red_value, green_value, blue_value;
-char max;
+char maxColour;
 
 
 Thread threadI2C(osPriorityNormal, 1024); // 1K stack size
@@ -68,7 +67,7 @@ void I2C_thread(){
 	
 	//COLOUR SENSOR
 	t.attach(read_colour, 1.0); // Every second the ticker triggers an interruption
-  green = 1; // LED of B-L072Z-LRWAN1 board on
+  //green = 1; // LED of B-L072Z-LRWAN1 board on
 	char id_regval[1] = {0x92}; //?1001 0010? (bin)
   char data[1] = {0}; //?0000 0000?
 	
@@ -78,11 +77,11 @@ void I2C_thread(){
 	
 	//We check that the ID is the TCS34725 one. If it is, we switch off a LED on the board, wait for 2s, and switch on again
 	if (data[0]==0x44) { //? 0100 0100? -> Value for the part number (0x44 for TCS34725)
-        green = 0;
+        //green = 0;
         wait (1);
-        green = 1;
+        //green = 1;
 	} else {
-        green = 0;
+        //green = 0;
   }
 	
 	// Initialize color sensor
@@ -171,20 +170,8 @@ void I2C_thread(){
         blue_value = ((int)blue_data[1] << 8) | blue_data[0];
         
 		//Obtains which one is the greatest - red, green or blue
-		max = getMax(red_value, green_value, blue_value);
+		maxColour = getMax(red_value, green_value, blue_value);
 		
-		//Switchs the color of the greatest value. First, we switch off all of them
-        ledR.write(1);
-        ledG.write(1);
-        ledB.write(1);
-        if (max == 'r'){
-          ledR.write(0);
-        } else if(max == 'g'){
-          ledG.write(0);
-        } else{
-          ledB.write(0);
-        }
-				
     }
 		
 	}

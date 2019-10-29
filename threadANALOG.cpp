@@ -2,8 +2,8 @@
 #include "rtos.h"
 
 
-AnalogIn soilmois(A1);
-AnalogIn lightSensor(A3);
+AnalogIn soilmois(A0);
+AnalogIn lightSensor(A2);
 
 float valueSM=0.0;
 float lightIntensity;
